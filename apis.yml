@@ -1,8 +1,27 @@
 aid: fabfitfun
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fabfitfun.png
 name: FabFitFun
-description: FabFitFun is a company surfaced as a portfolio company of 500-global, bond-capital, kleiner-perkins
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  FabFitFun is a members-only lifestyle subscription company that delivers curated seasonal boxes of
+  full-size beauty, fashion, wellness, and home products from premium brands, plus a members' community,
+  customization, and weekly flash-sale shopping. Founded in Los Angeles and backed by 500 Global, Bond
+  Capital, and Kleiner Perkins, FabFitFun serves over one million members with seasonal boxes valued up to
+  $350 for as low as $65 per season. The company operates a direct-to-consumer commerce website, a members'
+  account and box-customization experience, a support/help center, and the FabFitFun Magazine content
+  property. As of this profile FabFitFun publishes no public developer portal, API documentation, or
+  API reference; this entry captures its public web and legal surface plus a probed domain-security
+  posture, and remains a portfolio-sourced lead for further enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/fabfitfun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Subscription
+- E-Commerce
+- Retail
+- Consumer
+- Beauty
+- Lifestyle
+- Direct-to-Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fabfitfun-domain-security.yml
 - type: Website
   url: https://fabfitfun.com
+- type: PrivacyPolicy
+  url: https://legal.fabfitfun.com/#privacy-policy
+- type: TermsOfService
+  url: https://legal.fabfitfun.com/#terms-of-use
+- type: Support
+  url: https://support.fabfitfun.com/
+- type: HelpCenter
+  url: https://support.fabfitfun.com/
+- type: Blog
+  url: https://fabfitfun.com/magazine/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
