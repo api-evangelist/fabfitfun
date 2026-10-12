@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fabfitfun/integrations
+- https://n8n.io/integrations/fabfitfun/
+- https://composio.dev/toolkits/fabfitfun
+- https://monid.ai/tools/fabfitfun
+checked:
+- https://composio.dev/toolkits/fabfitfun
+- https://monid.ai/tools/fabfitfun
+- https://n8n.io/integrations/fabfitfun/
+- https://zapier.com/apps/fabfitfun/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
